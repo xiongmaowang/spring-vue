@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+  cache:
+    type: EhCache
+    ehcache:
+      config: classpath:ehcahe.xml
+server:
+  tomcat:
+    max-http-post-size: -1
+    max-http-header-size: -1
+  max-http-header-size: -1

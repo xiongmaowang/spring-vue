@@ -1,0 +1,22 @@
+/*
+*
+* auto:false 不再自动生成routerAuto
+* routes 里的对象可以根据name来重新定制 可定制属性:
+* 1.path
+* 2.async 是否脱离整个js 做异步加载
+* 3. delete 是否删除这个路由
+* */
+{
+  "auto" :true,
+  "routes" :
+  [
+    {
+      "name": "page/index",
+      "path": "/",
+      "async": true
+    },
+    {
+      "name": "login"
+    }
+  ]
+}
