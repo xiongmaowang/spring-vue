@@ -1,4 +1,4 @@
-// vue.config.js
+// vue.config.js 
 module.exports = {
   baseUrl: process.env.NODE_ENV === 'production'? '/springVue': '/springVue',
   outputDir:"../target/classes/static",
