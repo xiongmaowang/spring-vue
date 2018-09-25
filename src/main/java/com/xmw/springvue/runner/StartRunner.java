@@ -23,7 +23,6 @@ public class StartRunner implements CommandLineRunner {
     @Value("${spring.profiles.active}")
     private String profile;
 
-    private static Process runner = null;
     @Override
     public void run(String... args) {
         try {
