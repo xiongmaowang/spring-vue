@@ -68,7 +68,7 @@ public class RouterRunner {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        sb.append("//本文件由系统自动生成如果需要手动修改路由 请在routerCustom文件修改\n");
+        sb.append("//本文件由系统自动生成如果需要手动修改路由 请在routerConfig文件修改\n");
         appendImport(routers, sb);
         sb.append("export default");
         routersToList(routers,list);

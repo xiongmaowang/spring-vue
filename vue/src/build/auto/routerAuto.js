@@ -1,4 +1,4 @@
-//本文件由系统自动生成如果需要手动修改路由 请在routerCustom文件修改
+//本文件由系统自动生成如果需要手动修改路由 请在routerConfig文件修改
 import home from '@/views/Home.vue'
 import home2 from '@/views/Home2.vue'
 import login from '@/views/login.vue'
